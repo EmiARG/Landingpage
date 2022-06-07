@@ -1,0 +1,111 @@
+body {
+    margin-top: 15px;
+    background-image: url(img/compass.jpg);
+    background-size: cover;
+    
+}
+nav {
+    width: 50%;
+}
+.list-nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    flex-direction: row;
+}
+.logo-name {
+    display: flex;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+}
+.logo {
+    padding-top: 5px;
+    padding-left: 45px;
+    width: 100px;
+    height: 100px;
+}
+header {
+    background-color: #f4e1e1;
+    height: 100px;
+    padding-top: 0;
+    display: flex;
+    border-radius: 20px;
+    border: #000000 solid;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-one {
+    display: flex;
+    margin-bottom: 150px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+}
+.sunset-beach {
+    width: 350px;
+    height: 350px;
+    opacity: 0.78;
+    margin-right: 50px;
+    border-style: double;
+    border-radius: 15px;
+}
+button {
+    border-radius: 15px;
+    height: 40px;
+    width: 250px;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 5px;
+    transition: 1.5s;
+}
+.slogan-vision-buttons {
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;
+    padding-top: 0;
+}
+.vision {
+    width: 500px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.slogan {
+    font-size: 40px;
+    font-weight: bold;
+}
+.img-sunset {
+    height: 500px;
+}
+.button-fly-to-paradise:hover {
+    background-image: url(img/plane.jpg);
+    background-size: cover;
+    height: 80px;
+}
+.button-learn-more:hover {
+    background-image: url(img/compass3.jpg);
+    background-size: cover;
+    height: 80px;
+}
+.section-two {
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+.description {
+    text-align: center;
+}
+span {
+    background-color: rgb(205, 120, 23);
+}

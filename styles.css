@@ -43,7 +43,7 @@ header {
 }
 .section-one {
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
     justify-content: space-around;
     align-items: center;
     margin-top: 150px;
@@ -98,14 +98,89 @@ button {
     font-size: 25px;
     font-weight: bold;
     align-items: center;
+    padding-bottom: 50px;
     padding-left: 100px;
     padding-right: 100px;
-    border-radius: 15px;
-    margin-bottom: 100px;
+    border-bottom: solid 5px rgb(103, 73, 16);
+    margin-bottom: 20px;
 }
 .description {
     text-align: center;
 }
 span {
     background-color: rgb(205, 120, 23);
+}
+.section-three-a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.h2-section-three {
+    
+    font-size: 40px;
+    background-color: rgb(254, 254, 253);
+    border-radius: 25px;
+
+}
+.p-section-three {
+    font-size: 30px;
+    margin-bottom: 100px;
+    background-color: rgb(252, 252, 251);
+}
+.container-section-three {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.container-section-three div img {
+    width: 350px;
+    height: 350px;
+    border-style: double;
+    border-radius: 15px;
+}
+.container-section-three div p {
+    font-size: 20px;
+    background-color: burlywood;
+    border-radius: 10px;
+    margin-top: 0;
+}
+.aurora-boreal {
+    width: 30%;
+    
+}
+.piramides {
+    width: 30%;
+}
+.bora-bora {
+    width: 30%;
+}
+.container-section-four {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgb(214, 170, 104);
+    border-bottom: solid black 5px;
+    border-left: solid black 5px;
+    border-right: solid black 5px;
+    border-radius: 15px;
+    font-size: 22px;
+}
+.container-section-four img {
+    width: 150px;
+    height: 150px;
+}
+
+.h2-section-four {
+    font-size: 80px;
+    text-align: center;
 }

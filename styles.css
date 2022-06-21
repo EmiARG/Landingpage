@@ -184,3 +184,56 @@ span {
     font-size: 80px;
     text-align: center;
 }
+.titulo-empresas {
+    font-size: 80px;
+    text-align: center;
+    
+}
+.container-empresas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid 5px rgb(103, 73, 16);
+}
+.container-empresas img {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 100px;
+    border-radius: 25px;
+}
+
+.container-empresas a img:hover {
+    border: solid 5px goldenrod;
+}
+.section-six {
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.container-contactanos {
+    display: flex;
+    flex-direction: column;
+}
+.container-contactanos img {
+    width: 30px;
+    height: 30px;
+}
+footer {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.contactanos {
+    font-size: 40px;
+}
+.telefono {
+    font-size: 30px;
+}
+.direccion {
+    font-size: 30px;
+}
+iframe {
+    border-radius: 25px;
+    margin-top: 50px;
+}
